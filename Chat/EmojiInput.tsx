@@ -47,4 +47,4 @@ const EmojiInput = ({ value, onSelection }: EmojiInputProps) => {
   );
 };
 
-export default { EmojiInput };
+export default EmojiInput;

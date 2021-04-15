@@ -22,7 +22,6 @@ import './TownChat.css';
 import EmojiInput from './EmojiInput';
 import {ChatMessageProps} from "./types";
 
-
 const Chat = () => {
   // static contextType = ChatContext;
 
@@ -174,7 +173,7 @@ const Chat = () => {
                <EmojiInput value={inputMessage} onSelection={emojiInserted} />
               </span>
               <InputRightElement>
-             
+
                   <IconButton
                       colorScheme='twitter'
                       aria-label='Search database'
